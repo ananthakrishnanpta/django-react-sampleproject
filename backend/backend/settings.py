@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # added
     'corsheaders',
     'rest_framework',
     'products',
@@ -51,6 +52,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    # supports CORS - added
     'corsheaders.middleware.CorsMiddleware',
 ]
 
@@ -124,7 +127,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-MEDIA_ROOT = BASE_DIR/'media'
+# added
+MEDIA_ROOT = BASE_DIR /'media'
 MEDIA_URL = '/'
 
 # Default primary key field type
@@ -133,6 +137,7 @@ MEDIA_URL = '/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+# added
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default port
 ]
