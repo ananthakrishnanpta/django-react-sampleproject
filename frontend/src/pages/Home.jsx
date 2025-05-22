@@ -16,7 +16,7 @@ const Home = () => {
     ];
 
     return (
-        <div className='container mt-5 w-100 mx-auto'>
+        <div className='container mt-5 w-100 mx-auto bg-secondary'>
             <h1>
                 Products
             </h1>
