@@ -29,6 +29,6 @@ Sample project in react and django integration.
     - Run development server
         - `npm run dev`
 
-    - Navigate to the given url in terminal.
+    - Navigate to the given url (127.0.0.1:5173/ by default)in terminal.
     - Check if the products added using admin panel is appearing in the front end.
 
