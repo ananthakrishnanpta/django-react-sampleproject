@@ -2,7 +2,7 @@ Sample project in react and django integration.
 
 
 
-## <font color="blue">Running the project</font>
+## <font color="blue"><u>Running the project</u></font>
 
 - Clone the repository into local system
 - Open terminal and navigate to the project folder.
