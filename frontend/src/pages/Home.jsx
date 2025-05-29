@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import './Home.css';
 // Let's import the ProductCard we built in components
 import ProductCard from '../components/ProductCard';
 
@@ -36,7 +36,7 @@ const Home = () => {
         ,[]);
     
     return (
-        <div className='container mt-5 w-100 mx-auto bg-secondary'>
+        <div className='container mt-5 w-100 mx-auto border py-5'>
             <h1>
                 Products
             </h1>
