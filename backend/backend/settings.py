@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'products',
+
+    # authentication
+    'users'
 ]
 
 MIDDLEWARE = [
